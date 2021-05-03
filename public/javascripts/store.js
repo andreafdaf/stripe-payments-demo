@@ -154,7 +154,7 @@ class Store {
           headers: {'Content-Type': 'application/json'},
           body: JSON.stringify({
             currency,
-            payment_methods,
+            payment_methods: 'card',
           }),
         }
       );
